@@ -202,16 +202,16 @@ python comprehensive_analysis_plots.py
 
 Key hyperparameters used in experiments (see paper Section 5.2):
 
-| Parameter | Symbol | Default Value | Description |
-|-----------|--------|---------------|-------------|
-| Episodes | T | 10,000 | Number of training episodes |
-| Max steps | H | 100 | Maximum steps per episode |
-| Learning rate | α | 0.005 | Step size for updates |
-| Discount factor | γ | 0.9 | Future reward discount |
-| Tensor rank | k | 10 | CP decomposition rank |
-| Frequency penalty | λ | 1e-5 | Regularization weight |
-| UCB constant | c | 1.0 | Exploration-exploitation balance |
-| Initial ε | ε₀ | 1.0 | Initial exploration rate |
+| Parameter | Symbol | Description |
+|-----------|--------|-------------|
+| Episodes | T | Number of training episodes |
+| Max steps | H | Maximum steps per episode |
+| Learning rate | α | Step size for updates |
+| Discount factor | γ | Future reward discount |
+| Tensor rank | k | CP decomposition rank |
+| Frequency penalty | λ | Regularization weight |
+| UCB constant | c | Exploration-exploitation balance |
+| Initial ε | ε₀ | Initial exploration rate |
 
 ---
 
