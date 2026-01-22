@@ -50,7 +50,7 @@ except:
 # Configuration
 # ============================================================================
 
-BACKUP_DIR = 'results_backup_sensitivity copy'
+BACKUP_DIR = 'results_backup_sensitivity'
 
 # Level order for TEQL-only plotting (5 levels)
 LEVEL_ORDER_TEQL = ['very_coarse', 'coarse', 'medium', 'fine', 'very_fine']
